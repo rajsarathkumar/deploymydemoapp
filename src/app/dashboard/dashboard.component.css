@@ -1,0 +1,45 @@
+.green-snackbar {
+  background: green;
+} 
+
+.red-snackbar {
+  background: #f54242;
+}
+
+.blue-snackbar {
+  background: #2196F3;
+}
+
+.login-bg{
+    height: 100vh;
+    width: 100%;
+    background-color: #FAEBD7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .example-full-width {
+    width: 100%;
+  }
+
+  .welcome{
+  text-align: center;
+  color: red;  
+  }
+
+  .timeSlots{
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+    margin-top: -1rem !important;
+  }
+  .available{
+    color: green;
+    font-size: 13px;
+  }
+
+  .booked{
+    color: red;
+    font-size: 13px;
+  }

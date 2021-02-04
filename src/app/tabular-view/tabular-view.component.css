@@ -1,0 +1,16 @@
+.login-bg{
+    height: 100vh;
+    width: 100%;
+    background-color: #FAEBD7;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  table {
+    width: 100%;
+  }
+
+  .lists{
+color: rgb(95, 51, 255)
+  }

@@ -1,0 +1,49 @@
+<div class="container-fluid login-bg bg-color">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4"  style="margin-top: 80px;">
+        <mat-card class="card">
+          <mat-card-title class="text-center" style="font-size: 20px;color: red;">Health Appointment System</mat-card-title>
+          <mat-card-title class="text-center" style="font-size: 18px;">Login</mat-card-title>
+          <mat-card-content>
+             <form #loginForm="ngForm">
+              <p>
+                <mat-form-field appearance="outline">
+                  <mat-label>Username</mat-label>
+                  <input type="text" matInput placeholder="Enter valid username" required #userName="ngModel" name="userName"
+                    [(ngModel)]="loginData.userName">
+                </mat-form-field>
+              </p>
+
+              <p>
+                <mat-form-field appearance="outline">
+                  <mat-label>Password</mat-label>
+                  <input type="password" matInput placeholder="Enter valid password" required #userPassword="ngModel"
+                    name="userPassword" [(ngModel)]="loginData.userPassword">
+                </mat-form-field>
+              </p>
+
+
+              <p class="text-center">
+                <button mat-raised-button color="primary" (click)="login()">Submit</button>
+              </p>
+              <p class="text-center">
+                <u><b>Note: <span style="color: red;">*</span></b></u>
+              </p>
+              <p class="text-center">
+               <b> For Doctor : </b> Use Username as <b style="color: red;">"doctor" </b>& Password as <b style="color: red;">"doctor"</b>
+              </p>
+              <p class="text-center">
+                <b> For Patient : </b> Use Username as <b style="color: red;">"patient"</b> & Password as <b style="color: red;"> "patient"</b>
+               </p>
+            </form>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <div class="col-md-4"> 
+     
+      </div>
+    </div>
+  </div>
+</div>
